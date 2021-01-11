@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# UP Iris Photography Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![UP Iris](http://res.cloudinary.com/kdphotography-assets/image/upload/c_scale,w_256/v1/upirisorg/web/static/web/media/private/logo.png)
 
-## Available Scripts
+![node-current](https://img.shields.io/node/v/react?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/kvdomingo/upirisorg?style=flat-square)
 
-In the project directory, you can run:
 
-### `npm start`
+## Getting started
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Prerequisites
+- [Node.js](https://nodejs.org/en/) LTS 10 or above
+- [Git](https://git-scm.com/)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Installing
+A step by step series of examples that tell you how to get a development env running
 
-### `npm test`
+1. Install Git, and Node.js (links above).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Clone and extract repository to your machine
+```shell
+> git clone https://github.com/kvdomingo/upirisorg.git
+```
 
-### `npm run build`
+3. Checkout a new `develop` branch. **DO NOT** make any modifications directly in the `master` branch. Similarly, 
+   **DO NOT** push directly to the `master` branch.
+```shell
+> git checkout -b develop
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Install remaining prerequisites
+```shell
+> npm install -D
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Deploying locally
+Open a terminal and run
+```shell
+> npm run start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Access the local server at `http://localhost:3000`.
 
-### `npm run eject`
+## Deployment
+```shell
+> git add .
+> git commit -m <DESCRIPTIVE_COMMIT_MESSAGE>
+> git push origin <GITHUB_BRANCH>
+```
+where `GITHUB_BRANCH` should reflect the type of changes you are implementing (e.g., `feature/some-amazing-new-feature`, `bugfix/crush-critical-bug`).
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## CI/CD
+- Check the status of the build at [Actions](https://github.com/kvdomingo/upirisorg/actions)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributing
+Email us at [upirisorg@gmail.com](mailto:upirisorg.gmail.com).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Authors
+- **Kenneth V. Domingo** - [Email](mailto:hello@kvdomingo.xyz) | [Website](https://kvdomingo.xyz) | [GitHub](https://github.com/kvdomingo)

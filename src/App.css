@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'Futura Book';
+  src: local('Futura Bk BT'), url("fonts/Futura Book.ttf") format('truetype');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: 'Futura Book Italic';
+  src: local('Futura Bk BT'), url("fonts/Futura Book Italic.ttf") format('truetype');
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@font-face {
+  font-family: 'Futura Light';
+  src: local('Futura Lt BT'), url("fonts/Futura Light.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'Futura Light Italic';
+  src: local('Futura Lt BT'), url("fonts/Futura Light Italic.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'Futura Medium';
+  src: local('Futura Hv BT'), url("fonts/Futura Medium.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'Futura Medium Italic';
+  src: local('Futura Hv BT'), url("fonts/Futura Medium Italic.ttf") format('truetype');
+}
+
+html {
+  font-family: 'Futura Book', sans-serif;
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 576px) {
+  html {
+    font-size: 0.9rem;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media (max-width: 768px) {
+  html {
+    font-size: 1rem;
+  }
 }
 
-.App-link {
-  color: #61dafb;
+@media (max-width: 992px) {
+  html {
+    font-size: 1.05rem;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (min-width: 992px) {
+  html {
+    font-size: 1.1rem;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+
+.cover-photo {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: none;
+}
+
+.kill-shadow {
+  box-shadow: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
 }

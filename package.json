@@ -3,12 +3,29 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@apollo/react-hooks": "^4.0.0",
     "@testing-library/jest-dom": "^5.11.8",
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.6.0",
+    "aos": "^2.3.4",
+    "apollo-boost": "^0.4.9",
+    "axios": "^0.21.1",
+    "cloudinary-react": "^1.6.8",
+    "dateformat": "^4.4.1",
+    "graphql": "^15.4.0",
+    "imagesloaded": "^4.1.4",
+    "masonry-layout": "^4.2.2",
+    "mdbreact": "^5.0.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-fontawesome": "^1.7.1",
+    "react-helmet": "^6.1.0",
+    "react-lorem-ipsum": "^1.4.9",
+    "react-masonry-component": "^6.2.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
+    "react-typing-animation": "^1.6.2",
+    "simple-react-lightbox": "^3.5.2",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
@@ -16,6 +33,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "engines": {
+    "node": "12.16.1",
+    "npm": "6.14.5"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +55,21 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "prettier": "^2.2.1",
+    "react-router-sitemap": "^1.2.0"
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "bracketSpacing": true,
+    "jsxSingleQuote": false,
+    "printWidth": 120,
+    "quoteProps": "consistent",
+    "semi": true,
+    "singleQuote": false,
+    "tabWidth": 2,
+    "trailingComma": "all"
   }
 }
