@@ -50,9 +50,6 @@ Access the local server at `http://localhost:3000`.
 ```
 where `GITHUB_BRANCH` should reflect the type of changes you are implementing (e.g., `feature/some-amazing-new-feature`, `bugfix/crush-critical-bug`).
 
-## CI/CD
-- Check the status of the build at [Actions](https://github.com/kvdomingo/upirisorg/actions)
-
 ## Contributing
 Email us at [upirisorg@gmail.com](mailto:upirisorg.gmail.com).
 
